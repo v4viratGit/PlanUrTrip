@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/v4viratGit/PlanUrTrip/issues"
   },
-  "homepage": "https://github.com/v4viratGit/PlanUrTrip#readme"
+  "homepage": "https://github.com/v4viratGit/PlanUrTrip#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
 }
