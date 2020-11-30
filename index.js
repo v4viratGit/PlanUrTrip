@@ -1,9 +1,12 @@
-//PACKAGES
+//PACKAGE CONFIGURATIONS
+
     //EXPRESS
 const express       =       require("express"),
       app           =       express(),
+
     //EJS
       ejs           =       require("ejs");
+      app.set('view engine', 'ejs');
 
 
 app.get("/", (req,res)=>{
@@ -11,8 +14,6 @@ app.get("/", (req,res)=>{
 });
 
 
-
-//dsajiiikaskak
 
 //PORT LISTENER
 app.listen(3000, ()=>{
