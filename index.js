@@ -7,10 +7,10 @@ const express       =       require("express"),
     //EJS
       ejs           =       require("ejs");
       app.set('view engine', 'ejs');
-
+app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req,res)=>{
-    res.send("Home page will be here soon!");
+    res.render("home");
 });
 
 
